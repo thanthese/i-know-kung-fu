@@ -248,7 +248,9 @@ Help:
         updated-stacks (update-in stack [:not-seen] concat new-cards)]
     (do
       (save-stacks save-file updated-stacks)
-      (println "File" save-file "loaded as category" category))))
+      (println "File" import-file
+               "loaded into" save-file
+               "as category" category))))
 
 ;; main entry point
 
