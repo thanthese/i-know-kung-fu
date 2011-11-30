@@ -1,4 +1,4 @@
-Learn kung-fu with this command-line flash program.
+[Learn kung-fu](http://www.youtube.com/watch?v=6vMO3XmNXe4) with this command-line flash program.
 
 ## The algorithm
 
@@ -27,9 +27,3 @@ Requires [leiningen](https://github.com/technomancy/leiningen)
 or
 
     java -jar i-know-kung-fu-0.1-standalone.jar save-file import-file
-
-## License
-
-Copyright (C) 2011 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
