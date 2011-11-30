@@ -16,7 +16,7 @@
 
 ;; loading and saving
 
-(defn load-stacks [save-file] (load-string (slurp save-file)))
+(defn load-stacks [save-file] (read-string (slurp save-file)))
 (defn save-stacks [save-file stacks]
   (spit save-file (-> stacks
                     (update-in [:to-ask] vec)
