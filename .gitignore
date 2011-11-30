@@ -7,3 +7,5 @@
 /checkouts
 /.lein-deps-sum
 *.swp
+fu-it
+import-it
