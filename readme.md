@@ -1,4 +1,4 @@
-[Learn kung-fu](http://www.youtube.com/watch?v=6vMO3XmNXe4) with this command-line flash program.
+[Learn kung-fu](http://www.youtube.com/watch?v=6vMO3XmNXe4) (or anything else) with this command-line flashcard program.
 
 ## The algorithm
 
