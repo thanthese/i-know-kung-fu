@@ -6,6 +6,9 @@
 
 ;; todo ideas
 
+; pretty print save file
+; delete category
+; repair cognitive biases
 ; prevent duplicate cards on import
 
 ;; constants
