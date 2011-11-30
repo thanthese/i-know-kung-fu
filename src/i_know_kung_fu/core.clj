@@ -4,6 +4,11 @@
   (:require [clojure.string :as str])
   (:gen-class))
 
+;; todo ideas
+
+; add way to view all categories
+; prevent duplicate cards on import
+
 ;; constants
 
 (def considered-known-at-num-correct 3)
