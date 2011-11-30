@@ -1,0 +1,2 @@
+#!/bin/sh
+java -jar ~/i-know-kung-fu/i-know-kung-fu-0.1-standalone.jar ~/Dropbox/kung-fu.clj
