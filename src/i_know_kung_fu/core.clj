@@ -6,7 +6,6 @@
 
 ;; todo ideas
 
-; add way to view all categories
 ; prevent duplicate cards on import
 
 ;; constants
@@ -137,6 +136,10 @@
 
 ;;; IO with user
 
+(defn show-header []
+  (println "------------------------------------------------------------")
+  (println))
+
 (defn show-quit [] (println "Have a nice day!"))
 
 (defn show-help [] (println "
@@ -146,11 +149,11 @@ Help:
   :q quit
   :h this help message
   :s detailed statistics
+  :c show all categories
 "))
 
 (defn show-detailed-status [stacks]
-  (println "------------------------------------------------------------")
-  (println)
+  (show-header)
   (println "Active cards and their scores:")
   (println)
   (doseq [[score question] (sort (map (juxt :consecutive-correct :question)
@@ -165,8 +168,7 @@ Help:
     (str minutes "m " seconds "s")))
 
 (defn show-basic-stats [stacks starting-time]
-  (println "------------------------------------------------------------")
-  (println)
+  (show-header)
   (println "  Elapsed time: " (elapsed-time starting-time))
   (println)
   (println " " (count (:not-seen stacks)) "Not seen")
@@ -200,12 +202,29 @@ Help:
       ":q" :quit
       ":h" :help
       ":s" :stats
+      ":c" :cats
       answer-b :correct
 
       :wrong)))
 
 (defn show-all-done []
   (println "All questioned answered for today.  Take a break."))
+
+(defn all-categories [stacks]
+  (->>
+    (concat (:to-ask stacks)
+            (:not-seen stacks)
+            (:not-due stacks))
+    (map :category)
+    distinct sort))
+
+(defn show-all-categories [stacks]
+  (show-header)
+  (println "All categories:")
+  (println)
+  (doseq [cat (all-categories stacks)]
+    (println " " cat))
+  (println))
 
 ;; ask loop
 
@@ -231,6 +250,9 @@ Help:
                       (recur stacks))
               :stats (do
                        (show-detailed-status stacks)
+                       (recur stacks))
+              :cats (do
+                       (show-all-categories stacks)
                        (recur stacks))
               :wrong (do
                        (show-wrong card)
