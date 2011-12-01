@@ -55,6 +55,11 @@
 
 ;; introduce new cards :not-seen -> :to-ask
 
+(defn show-level-up []
+  (println)
+  (println "  !!  Level Up !!")
+  (println))
+
 (defn not-learned [stacks]
   (count (filter (fn [card] (< (:consecutive-correct card)
                                considered-known-at-num-correct))
@@ -191,11 +196,6 @@ Help:
   :c show all categories
   :d delete category
 "))
-
-(defn show-level-up []
-  (println)
-  (println "  !!  Level Up !!")
-  (println))
 
 (defn show-detailed-status [stacks]
   (show-header)
