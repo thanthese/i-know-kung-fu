@@ -79,6 +79,7 @@
     (if enough-not-learned
       stacks
       (let [cards (top-cards-from-random-category stacks)]
+        (show-level-up)
         (-> stacks
           (remove-cards :not-seen cards)
           (add-cards :to-ask (initialize-counter-fields cards))
@@ -190,6 +191,11 @@ Help:
   :c show all categories
   :d delete category
 "))
+
+(defn show-level-up []
+  (println)
+  (println "  !!  Level Up !!")
+  (println))
 
 (defn show-detailed-status [stacks]
   (show-header)
