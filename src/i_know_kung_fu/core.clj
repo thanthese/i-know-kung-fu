@@ -6,10 +6,13 @@
 
 ;; todo ideas
 
-; pretty print save file
 ; delete category
 ; repair cognitive biases
 ; prevent duplicate cards on import
+
+;; for DEVELOPMENT shortcuts
+
+;(def stacks (load-stacks "/Users/thanthese/i-know-kung-fu/resources/public/cards.clj"))
 
 ;; constants
 
@@ -18,12 +21,19 @@
 
 ;; loading and saving
 
+(defn wrap [delimiter elems]
+  (let [closer (condp = delimiter
+                 "[" "]"
+                 "{" "}")]
+    (str delimiter (apply str (interpose "\n" elems)) closer)))
+
+(defn print-stacks [stacks]
+  (wrap "{" (for [pile (keys stacks)]
+              (str pile "\n"
+                   (wrap "[" (map str (pile stacks)))))))
+
 (defn load-stacks [save-file] (read-string (slurp save-file)))
-(defn save-stacks [save-file stacks]
-  (spit save-file (-> stacks
-                    (update-in [:to-ask] vec)
-                    (update-in [:not-seen] vec)
-                    (update-in [:not-due] vec))))
+(defn save-stacks [save-file stacks] (spit save-file (print-stacks stacks)))
 
 ;; generic operations on the stacks
 
