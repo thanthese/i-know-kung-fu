@@ -6,18 +6,17 @@
 
 ;; todo ideas
 
-; delete category
 ; repair cognitive biases
 ; prevent duplicate cards on import
-
-;; for DEVELOPMENT shortcuts
-
-;(def stacks (load-stacks "/Users/thanthese/i-know-kung-fu/resources/public/cards.clj"))
 
 ;; constants
 
 (def considered-known-at-num-correct 3)
 (def new-ones-batch-size 10)
+
+;; DEVELOPMENT shortcuts
+
+;(def stacks (load-stacks "/Users/thanthese/i-know-kung-fu/resources/public/cards.clj"))
 
 ;; loading and saving
 
@@ -147,6 +146,17 @@
       (remove-card :to-ask card)
       (add-card :to-ask marked-wrong))))
 
+;; delete category
+
+(defn delete-category [stacks category]
+  (reduce
+    (fn [stacks-acc pile]
+      (assoc-in stacks-acc [pile]
+                (remove (fn [card] (= category (:category card)))
+                        (pile stacks))))
+    stacks
+    (keys stacks)))
+
 ;;; IO with user
 
 (defn show-header []
@@ -163,6 +173,7 @@ Help:
   :h this help message
   :s detailed statistics
   :c show all categories
+  :d delete category
 "))
 
 (defn show-detailed-status [stacks]
@@ -215,6 +226,7 @@ Help:
       ":q" :quit
       ":h" :help
       ":s" :stats
+      ":d" :del-cat
       ":c" :cats
       answer-b :correct
 
@@ -238,6 +250,17 @@ Help:
   (doseq [cat (all-categories stacks)]
     (println " " cat))
   (println))
+
+(defn delete-category-io [stacks]
+  (show-all-categories stacks)
+  (println)
+  (println "Which category would you like to delete?")
+  (println)
+  (let [cleaner-stacks (delete-category stacks (read-line))]
+    (println)
+    (println "!!  Deletion complete.  !!")
+    (println)
+    cleaner-stacks))
 
 ;; ask loop
 
@@ -264,9 +287,11 @@ Help:
               :stats (do
                        (show-detailed-status stacks)
                        (recur stacks))
+              :del-cat (do
+                         (recur (delete-category-io stacks)))
               :cats (do
-                       (show-all-categories stacks)
-                       (recur stacks))
+                      (show-all-categories stacks)
+                      (recur stacks))
               :wrong (do
                        (show-wrong card)
                        (recur (wrong stacks card)))
