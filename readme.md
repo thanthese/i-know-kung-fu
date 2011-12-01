@@ -27,3 +27,5 @@ Requires [leiningen](https://github.com/technomancy/leiningen)
 or
 
     java -jar i-know-kung-fu-0.1-standalone.jar save-file import-file
+
+Sample import files are under the `resources` folder.
