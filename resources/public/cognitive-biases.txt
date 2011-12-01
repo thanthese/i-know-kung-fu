@@ -1,0 +1,200 @@
+The tendency for explanations of other individuals' behaviors to overemphasize the influence of their personality and underemphasize the influence of their situation (see also Fundamental attribution error), and for explanations of one's own behaviors to do the opposite (that is, to overemphasize the influence of our situation and underemphasize the influence of our own personality).
+Actor-observer bias
+Basing a decision on an emotional reaction rather than a calculation of risks and benefits
+Affect heuristic
+The tendency to avoid options for which missing information makes the probability seem "unknown."
+Ambiguity effect
+The common human tendency to rely too heavily on one trait or piece of information when making decisions.
+Anchoring
+The tendency of emotionally dominant stimuli in one's environment to preferentially draw and hold attention, or to neglect relevant data when making judgments of a correlation or association.
+Attentional Bias
+Making a complex, difficult judgment by unconsciously substituting an easier judgment
+Attribute substitution
+A self-reinforcing process in which a collective belief gains more and more plausibility through its increasing repetition in public discourse (or "repeat something long enough and it will become true").
+Availability cascade
+Estimating what is more likely by what is more available in memory, which is biased toward vivid, unusual, or emotionally charged examples.
+Availability heuristic
+Evidence disconfirming our beliefs only strengthens them.
+Backfire effect
+The tendency to do (or believe) things because many other people do (or believe) the same. Related to groupthink and herd behavior.
+Bandwagon effect
+The tendency to base judgments on specifics, ignoring general statistical information.
+Base rate neglect
+An effect where someone's evaluation of the logical strength of an argument is biased by the believability of the conclusion.
+Belief bias
+The tendency to see oneself as less biased than other people.
+Bias blind spot
+The tendency to remember one's choices as better than they actually were.
+Choice-supportive bias
+The tendency to see patterns where actually none exist. Also referred to as "patternicity" by author Michael Shermer.
+Clustering illusion
+The tendency to search for or interpret information in a way that confirms one's preconceptions.
+Confirmation bias
+The tendency to test hypotheses exclusively through direct testing, in contrast to tests of possible alternative hypotheses.
+Congruence bias
+The tendency to assume that specific conditions are more probable than general ones.
+Conjunction fallacy
+The enhancement or diminishing of a weight or other measurement when compared with a recently observed contrasting object.
+Contrast effect
+A form of misattribution where a memory is mistaken for imagination.
+Cryptomnesia
+The tendency to spend more money when it is denominated in small amounts (e.g. coins) rather than large amounts (e.g. bills).
+Denomination effect
+The tendency to expect extreme performance to continue.
+Disregard of regression toward the mean
+The tendency to view two options as more dissimilar when evaluating them simultaneously than when evaluating them separately.
+Distinction bias
+A twofold bias. On one hand the lack of metacognitive ability deludes people, who overrate their capabilities. On the other hand, skilled people underrate their abilities, as they assume the others have a similar understanding.
+Dunning-Kruger effect
+Recalling the past in a self-serving manner, e.g., remembering one's exam grades as being better than they were, or remembering a caught fish as being bigger than it was.
+Egocentric bias
+The tendency to underestimate the influence or strength of feelings, in either oneself or others.
+Empathy gap
+The fact that people often demand much more to give up an object than they would be willing to pay to acquire it.
+Endowment effect
+The tendency for experimenters to believe, certify, and publish data that agree with their expectations for the outcome of an experiment, and to disbelieve, discard, or downgrade the corresponding weightings for data that appear to conflict with those expectations.
+Expectation bias
+The tendency for people to overestimate the degree to which others agree with them.
+False consensus effect
+A form of misattribution where imagination is mistaken for a memory.
+False memory
+The tendency to place too much importance on one aspect of an event; causes error in accurately predicting the utility of a future outcome.
+Focusing effect
+The tendency to give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically for them, but are in fact vague and general enough to apply to a wide range of people. For example, horoscopes.
+Forer effect
+The tendency to create models based on past data which are validated only against that past data.
+Forward Bias
+Drawing different conclusions from the same information, depending on how that information is presented.
+Framing effect
+The illusion in which a word, a name or other thing that has recently come to one's attention suddenly appears "everywhere" with improbable frequency (see also recency illusion). Sometimes called "The Baader-Meinhof phenomenon".
+Frequency illusion
+The tendency for people to over-emphasize personality-based explanations for behaviors observed in others while under-emphasizing the role and power of situational influences on the same behavior (see also actor-observer bias, group attribution error, positivity effect, and negativity effect).
+Fundamental attribution error
+The tendency to think that future probabilities are altered by past events, when in reality they are unchanged. Results from an erroneous conceptualization of the Law of large numbers. For example, "I've flipped heads with this coin five times consecutively, so the chance of tails coming out on the sixth flip is much greater than heads."
+Gambler's fallacy
+The tendency for a person's positive or negative traits to "spill over" from one area of their personality to another in others' perceptions of them (see also physical attractiveness stereotype).
+Halo effect
+Filtering memory of past events through present knowledge, so that those events look more predictable than they actually were; also known as the "I-knew-it-all-along effect."
+Hindsight bias
+The tendency to see a media report as being biased due to one's own strong partisan views.
+Hostile media effect
+The tendency for people to have a stronger preference for more immediate payoffs relative to later payoffs, where the tendency increases the closer to the present both payoffs are.
+Hyperbolic discounting
+The tendency to overestimate one's degree of influence over other external events.
+Illusion of control
+People overestimate others' ability to know them, and they also overestimate their ability to know others.
+Illusion of transparency
+Inaccurately perceiving a relationship between two events, either because of prejudice or selective processing of information.
+Illusory correlation
+Overestimating one's desirable qualities, and underestimating undesirable qualities, relative to other people. (Also known as "Lake Wobegon effect," "better-than-average effect," or "superiority bias").
+Illusory superiority
+The tendency to overestimate the length or the intensity of the impact of future feeling states.
+Impact bias
+The tendency to seek information even when it cannot affect action.
+Information bias
+The tendency for people to give preferential treatment to others they perceive to be members of their own groups.
+Ingroup bias
+The phenomenon where people justify increased investment in a decision, based on the cumulative prior investment, despite new evidence suggesting that the decision was probably wrong.
+Irrational escalation
+The tendency for people to want to believe that the world is fundamentally just, causing them to rationalize an otherwise inexplicable injustice as deserved by the victim(s).
+Just-world hypothesis
+The disutility of giving up an object is greater than the utility associated with acquiring it. (see also Sunk cost effects and Endowment effect).
+Loss aversion
+The tendency to express undue liking for things merely because of familiarity with them.
+Mere exposure effect
+The tendency to concentrate on the nominal (face value) of money rather than its value in terms of purchasing power.
+Money illusion
+The tendency of a track record of non-prejudice to increase subsequent prejudice.
+Moral credential effect
+The tendency for people to ascribe greater or lesser moral standing based on the outcome of an event rather than the intention
+Moral luck
+The tendency to pay more attention and give more weight to negative than positive experiences or other kinds of information.
+Negativity bias
+The tendency to completely disregard probability when making a decision under uncertainty.
+Neglect of probability
+The refusal to plan for, or react to, a disaster which has never happened before.
+Normalcy bias
+When a researcher expects a given result and therefore unconsciously manipulates an experiment or misinterprets data in order to find it (see also subject-expectancy effect).
+Observer-expectancy effect
+The tendency to judge harmful actions as worse, or less moral, than equally harmful omissions (inactions).
+Omission bias
+The tendency to be over-optimistic about the outcome of planned actions.
+Optimism bias
+Ignoring an obvious (negative) situation.
+Ostrich effect
+The tendency to judge a decision by its eventual outcome instead of based on the quality of the decision at the time it was made.
+Outcome bias
+Individuals see members of their own group as being relatively more varied than members of other groups.
+Outgroup homogeneity bias
+Excessive confidence in one's own answers to questions. For example, for certain types of questions, answers that people rate as "99% certain" turn out to be wrong 40% of the time.
+Overconfidence effect
+A vague and random stimulus (often an image or sound) is perceived as significant, e.g., seeing images of animals or faces in clouds, the man in the moon, and hearing hidden messages on records played in reverse.
+Pareidolia
+The tendency for some people, especially those suffering from depression, to overestimate the likelihood of negative things happening to them.
+Pessimism bias
+The tendency to underestimate task-completion times.
+Planning fallacy
+The tendency of one to overestimate the probability of a favorable outcome coming to pass in a given situation (see also wishful thinking, optimism bias, and valence effect).
+Positive outcome bias
+Older adults remember relatively more positive than negative things, compared with younger adults
+Positivity effect
+The tendency to persuade oneself through rational argument that a purchase was a good value.
+Post-purchase rationalization
+The greater ease of recall of initial items in a sequence compared to items in the middle of the sequence.
+Primacy effect
+The tendency to unconsciously assume that others (or one's future selves) share one's current emotional states, thoughts and values.
+Projection bias
+The tendency to make risk-averse choices if the expected outcome is positive, but make risk-seeking choices to avoid negative outcomes.
+Pseudocertainty effect
+The urge to do the opposite of what someone wants you to do out of a need to resist a perceived attempt to constrain your freedom of choice.
+Reactance
+A cognitive bias that results from disproportionate salience of recent stimuli or observations — the tendency to weigh recent events more than earlier events (see also peak-end rule).
+Recency bias
+The greater ease of recall of items at the end of a sequence compared to items earlier in the sequence.
+Recency effect
+The illusion that a phenomenon, typically a word or language usage, that one has just begun to notice is a recent innovation (see also frequency illusion).
+Recency illusion
+The effect that people tend to recall more personal events from adolescence and early adulthood than from other lifetime periods.
+Reminiscence bump
+Judging probabilities on the basis of resemblance
+Representativeness heuristic
+The tendency to overestimate one's ability to show restraint in the face of temptation.
+Restraint bias
+The tendency to rate past events more positively than they had actually rated them when the event occurred.
+Rosy retrospection
+The tendency for expectations to affect perception.
+Selective perception
+Perceiving oneself responsible for desirable outcomes but not responsible for undesirable ones.
+Self-serving bias
+The tendency to reject new evidence that contradicts a paradigm.
+Semmelweis reflex
+The tendency, when making hiring decisions, to favour potential candidates who don't compete with one's own particular strengths.
+Social comparison bias
+The tendency to like things to stay relatively the same (see also loss aversion, endowment effect, and system justification).
+Status quo bias
+Expecting a member of a group to have certain characteristics without having actual information about that individual.
+Stereotyping
+The tendency to judge probability of the whole to be less than the probabilities of the parts.
+Subadditivity effect
+Perception that something is true if a subject's belief demands it to be true. Also assigns perceived connections between coincidences.
+Subjective validation
+A form of misattribution where ideas suggested by a questioner are mistaken for memory.
+Suggestibility
+The tendency to defend and bolster the status quo. Existing social, economic, and political arrangements tend to be preferred, and alternatives disparaged sometimes even at the expense of individual and collective self-interest. (See also status quo bias.)
+System justification
+The effect that recent events appear to have occurred more remotely and remote events appear to have occurred more recently.
+Telescoping effect
+The tendency for people to view themselves as relatively variable in terms of personality, behavior, and mood while viewing others as much more predictable.
+Trait ascription bias
+Similar to the fundamental attribution error, in this error a person is likely to make an internal attribution to an entire group instead of the individuals within the group.
+Ultimate attribution error
+The tendency to want to finish a given unit of a task or an item. Strong effects on the consumption of food in particular.
+Unit bias
+The tendency for an item that "stands out like a sore thumb" to be more likely to be remembered than other items.
+Von Restorff effect
+Underestimation of the duration taken to traverse oft-traveled routes and over-estimate the duration taken to traverse less familiar routes.
+Well travelled road effect
+The formation of beliefs and the making of decisions according to what is pleasing to imagine instead of by appeal to evidence or rationality.
+Wishful thinking
+Preference for reducing a small risk to zero over a greater reduction in a larger risk.
+Zero-risk bias

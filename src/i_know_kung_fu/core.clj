@@ -6,7 +6,6 @@
 
 ;; todo ideas
 
-; repair cognitive biases
 ; prevent duplicate cards on import
 
 ;; constants
