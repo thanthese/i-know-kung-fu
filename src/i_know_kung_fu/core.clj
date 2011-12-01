@@ -158,6 +158,22 @@
 
 ;;; IO with user
 
+(defn show-args-help []
+  (println "
+Arguments: save-file [import-file]
+
+- save-file is required and must be fully qualified.
+- import-file is optional.  When not specified, program
+  runs in quiz mode.  When specified, new cards are
+  created from the file.  Import file takes the form:
+
+    Question 1
+    Answer 1
+    Question 2
+    Answer 2
+    ...
+"))
+
 (defn show-header []
   (println "------------------------------------------------------------")
   (println))
@@ -317,22 +333,6 @@ Help:
                "as category" category))))
 
 ;; main entry point
-
-(defn show-args-help []
-  (println "
-Arguments: save-file [import-file]
-
-- save-file is required and must be fully qualified.
-- import-file is optional.  When not specified, program
-  runs in quiz mode.  When specified, new cards are
-  created from the file.  Import file takes the form:
-
-    Question 1
-    Answer 1
-    Question 2
-    Answer 2
-    ...
-"))
 
 (defn -main
   ([] (show-args-help))
