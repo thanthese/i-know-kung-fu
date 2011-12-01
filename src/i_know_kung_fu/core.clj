@@ -57,7 +57,7 @@
 
 (defn show-level-up []
   (println)
-  (println "  !!  Level Up !!")
+  (println "  !!!  Level Up  !!!")
   (println))
 
 (defn not-learned [stacks]
