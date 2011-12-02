@@ -6,9 +6,8 @@
 
 ;; todo ideas
 
-; prevent duplicate cards on import
-; move helper scripts out of repository
 ; show counts on category list
+; prevent duplicate cards on import
 
 ;; constants
 
