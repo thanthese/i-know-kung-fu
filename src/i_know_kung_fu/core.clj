@@ -16,6 +16,9 @@
 ;(def stacks (load-stacks "/Users/thanthese/i-know-kung-fu/resources/public/save-files/test.clj"))
 ;(-main "/Users/thanthese/i-know-kung-fu/resources/public/save-files/test.clj")
 
+;(def stacks (load-stacks "/Users/thanthese/Dropbox/kung-fu.clj"))
+;(-main "/Users/thanthese/Dropbox/kung-fu.clj")
+
 ;; loading and saving
 
 (defn wrap [delimiter elems]
@@ -205,6 +208,7 @@ Help:
   :q quit
   :h this help message
   :s detailed statistics
+  :o score frequencies
   :c show all categories
   :d delete category
 "))
@@ -216,6 +220,17 @@ Help:
   (doseq [[score question] (sort (map (juxt :consecutive-correct :question)
                                       (:to-ask stacks)))]
     (println " " score question))
+  (println))
+
+(defn show-score-frequencies [stacks]
+  (show-header)
+  (println "Show how many cards are at each score.")
+  (println)
+  (println "Score | Count")
+  (doseq [[score cards] (group-by :consecutive-correct
+                                  (all-cards stacks))
+          :when (not (nil? score))]
+    (println " " score (count cards)))
   (println))
 
 (defn elapsed-time [starting-time]
@@ -259,6 +274,7 @@ Help:
       ":q" :quit
       ":h" :help
       ":s" :stats
+      ":o" :scores
       ":d" :del-cat
       ":c" :cats
       answer-b :correct
@@ -313,6 +329,9 @@ Help:
                       (recur stacks))
               :stats (do
                        (show-detailed-status stacks)
+                       (recur stacks))
+              :scores (do
+                       (show-score-frequencies stacks)
                        (recur stacks))
               :del-cat (do
                          (recur (delete-category-io stacks)))
