@@ -1,0 +1,2 @@
+Pi, to the first 10 digits after the decimal. Truncated.
+3.1415926535
