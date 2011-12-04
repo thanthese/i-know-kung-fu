@@ -227,8 +227,8 @@ Help:
   (println "Show how many cards are at each score.")
   (println)
   (println "Score | Count")
-  (doseq [[score cards] (group-by :consecutive-correct
-                                  (all-cards stacks))
+  (doseq [[score cards] (sort (group-by :consecutive-correct
+                                        (all-cards stacks)))
           :when (not (nil? score))]
     (println " " score (count cards)))
   (println))
