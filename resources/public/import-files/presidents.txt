@@ -1,0 +1,88 @@
+1789 1797
+George Washington
+1797 1801
+John Adams
+1801 1809
+Thomas Jefferson
+1809 1817
+James Madison
+1817 1825
+James Monroe
+1825 1829
+John Quincy Adams
+1829 1837
+Andrew Jackson
+1837 1841
+Martin Van Buren
+1841 1841
+William Henry Harrison
+1841 1845
+John Tyler
+1845 1849
+James K. Polk
+1849 1850
+Zachary Taylor
+1850 1853
+Millard Fillmore
+1853 1857
+Franklin Pierce
+1857 1861
+James Buchanan
+1861 1865
+Abraham Lincoln
+1865 1869
+Andrew Johnson
+1869 1877
+Ulysses S. Grant
+1877 1881
+Rutherford B. Hayes
+1881 1881
+James A. Garfield
+1881 1885
+Chester A. Arthur
+1885 1889
+Grover Cleveland
+1889 1893
+Benjamin Harrison
+1893 1897
+Grover Cleveland
+1897 1901
+William McKinley
+1901 1909
+Theodore Roosevelt
+1909 1913
+William Howard Taft
+1913 1921
+Woodrow Wilson
+1921 1923
+Warren G. Harding
+1923 1929
+Calvin Coolidge
+1929 1933
+Herbert Hoover
+1933 1945
+Franklin D. Roosevelt
+1945 1953
+Harry S Truman
+1953 1961
+Dwight D. Eisenhower
+1961 1963
+John F. Kennedy
+1963 1969
+Lyndon B. Johnson
+1969 1974
+Richard Nixon
+1974 1977
+Gerald Ford
+1977 1981
+Jimmy Carter
+1981 1989
+Ronald Reagan
+1989 1993
+George H. W. Bush
+1993 2001
+Bill Clinton
+2001 2009
+George W. Bush
+2009 -
+Barack Obama
