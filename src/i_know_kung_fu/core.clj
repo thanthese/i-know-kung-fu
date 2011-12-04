@@ -6,7 +6,6 @@
 
 ;; todo ideas
 
-; show counts on category list
 ; prevent duplicate cards on import
 
 ;; constants
@@ -16,7 +15,8 @@
 
 ;; DEVELOPMENT shortcuts
 
-;(def stacks (load-stacks "/Users/thanthese/i-know-kung-fu/resources/public/cards.clj"))
+;(def stacks (load-stacks "/Users/thanthese/i-know-kung-fu/resources/public/save-files/test.clj"))
+;(-main "/Users/thanthese/i-know-kung-fu/resources/public/save-files/test.clj")
 
 ;; loading and saving
 
@@ -54,8 +54,12 @@
 (defn remove-cards [stacks pile cards] (stacks-map stacks pile remove-card cards))
 (defn add-cards    [stacks pile cards] (stacks-map stacks pile add-card    cards))
 
-;; introduce new cards :not-seen -> :to-ask
+(defn all-cards [stacks]
+  (concat (:to-ask stacks)
+          (:not-seen stacks)
+          (:not-due stacks)))
 
+;; introduce new cards :not-seen -> :to-ask
 (defn show-level-up []
   (println)
   (println "  !!!  Level Up  !!!")
@@ -152,7 +156,7 @@
       (remove-card :to-ask card)
       (add-card :to-ask marked-wrong))))
 
-;; delete category
+;; general category manipulations
 
 (defn delete-category [stacks category]
   (reduce
@@ -162,6 +166,15 @@
                         (pile stacks))))
     stacks
     (keys stacks)))
+
+(defn all-categories [stacks]
+  (->> (all-cards stacks)
+    (map :category)
+    distinct sort))
+
+(defn count-cards-in-category [stacks category]
+  (count (filter (fn [card] (= (:category card) category))
+                 (all-cards stacks))))
 
 ;;; IO with user
 
@@ -257,20 +270,12 @@ Help:
 (defn show-all-done []
   (println "All questioned answered for today.  Take a break."))
 
-(defn all-categories [stacks]
-  (->>
-    (concat (:to-ask stacks)
-            (:not-seen stacks)
-            (:not-due stacks))
-    (map :category)
-    distinct sort))
-
 (defn show-all-categories [stacks]
   (show-header)
   (println "All categories:")
   (println)
   (doseq [cat (all-categories stacks)]
-    (println " " cat))
+    (println " " (count-cards-in-category stacks cat) cat))
   (println))
 
 (defn delete-category-io [stacks]
