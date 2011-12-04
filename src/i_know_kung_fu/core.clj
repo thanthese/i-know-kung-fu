@@ -266,7 +266,7 @@ Help:
   (println "  Categry : " (:category card))
   (println "  Score   : " (:consecutive-correct card))
   (println)
-  (doseq [line (re-seq #".{0,65} " (:question card))]
+  (doseq [line (re-seq #".{0,65} " (str (:question card) " "))]
     (println line))
   (println)
   (let [answer-a (str/lower-case (read-line))
