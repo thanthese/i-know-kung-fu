@@ -6,8 +6,6 @@
 
 ;; todo ideas
 
-; smart word wrap
-
 ;; constants
 
 (def considered-known-at-num-correct 3)
@@ -268,7 +266,8 @@ Help:
   (println "  Categry : " (:category card))
   (println "  Score   : " (:consecutive-correct card))
   (println)
-  (println (:question card))
+  (doseq [line (re-seq #".{0,65} " (:question card))]
+    (println line))
   (println)
   (let [answer-a (str/lower-case (read-line))
         answer-b (str/lower-case (str (:answer card)))]
@@ -280,7 +279,6 @@ Help:
       ":d" :del-cat
       ":c" :cats
       answer-b :correct
-
       :wrong)))
 
 (defn show-all-done []
