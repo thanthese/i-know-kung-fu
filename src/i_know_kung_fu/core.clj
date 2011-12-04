@@ -6,8 +6,6 @@
 
 ;; todo ideas
 
-; prevent duplicate cards on import
-
 ;; constants
 
 (def considered-known-at-num-correct 3)
@@ -276,6 +274,8 @@ Help:
   (println)
   (doseq [cat (all-categories stacks)]
     (println " " (count-cards-in-category stacks cat) cat))
+  (println)
+  (println "  There are" (count (all-cards stacks)) "cards in all.")
   (println))
 
 (defn delete-category-io [stacks]
@@ -328,21 +328,43 @@ Help:
 
 ;; import new files
 
+(defn originals
+  "Return a list of only those cards for which
+  there is no similar card in stacks."
+  [stacks cards]
+  (let [all (all-cards stacks)]
+    (remove (fn [card-a]
+              (some (fn [card-b]
+                      (and (= (:question card-a)
+                              (:question card-b))
+                           (= (:answer card-a)
+                              (:answer card-b))))
+                    all))
+            cards)))
+
+(defn qs [text]
+  (str "\"" text "\""))
+
 (defn import-new-cards [save-file import-file]
-  (let [stack (load-stacks save-file)
+  (let [stacks (load-stacks save-file)
+        QAs (partition 2 (str/split (slurp import-file) #"\n"))
         category (do
+                   (show-all-categories stacks)
                    (println "Enter category of new cards: ")
+                   (println)
                    (read-line))
-        new-cards (for [[q a] (partition 2 (str/split (slurp import-file) #"\n"))]
+        new-cards (for [[q a] QAs]
                     {:category category
                      :question q
                      :answer a})
-        updated-stacks (update-in stack [:not-seen] concat new-cards)]
+        valid-cards (originals stacks new-cards)]
     (do
-      (save-stacks save-file updated-stacks)
-      (println "File" import-file
-               "loaded into" save-file
-               "as category" category))))
+      (save-stacks save-file (update-in stacks [:not-seen] concat valid-cards))
+      (println)
+      (println (count valid-cards)
+               "from file" (qs import-file)
+               "loaded into" (qs save-file)
+               "as category" (qs category)))))
 
 ;; main entry point
 
