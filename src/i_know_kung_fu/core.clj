@@ -6,6 +6,8 @@
 
 ;; todo ideas
 
+; smart word wrap
+
 ;; constants
 
 (def considered-known-at-num-correct 3)

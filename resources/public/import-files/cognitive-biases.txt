@@ -6,7 +6,7 @@ The tendency to avoid options for which missing information makes the probabilit
 Ambiguity effect
 The common human tendency to rely too heavily on one trait or piece of information when making decisions.
 Anchoring
-The tendency of emotionally dominant stimuli in one's environment to preferentially draw and hold attention, or to neglect relevant data when making judgments of a correlation or association.
+The tendency of emotionally dominant stimuli in one's environment to preferentially draw and hold attention.
 Attentional Bias
 Making a complex, difficult judgment by unconsciously substituting an easier judgment
 Attribute substitution
@@ -24,6 +24,8 @@ An effect where someone's evaluation of the logical strength of an argument is b
 Belief bias
 The tendency to see oneself as less biased than other people.
 Bias blind spot
+Limits on optimization and rationality
+Bounded rationality
 The tendency to remember one's choices as better than they actually were.
 Choice-supportive bias
 The tendency to see patterns where actually none exist. Also referred to as "patternicity" by author Michael Shermer.
@@ -80,6 +82,8 @@ The tendency to see a media report as being biased due to one's own strong parti
 Hostile media effect
 The tendency for people to have a stronger preference for more immediate payoffs relative to later payoffs, where the tendency increases the closer to the present both payoffs are.
 Hyperbolic discounting
+People perceive their knowledge of their peers to surpass their peers' knowledge of them.
+Illusion of asymmetric insight
 The tendency to overestimate one's degree of influence over other external events.
 Illusion of control
 People overestimate others' ability to know them, and they also overestimate their ability to know others.
@@ -98,7 +102,7 @@ The phenomenon where people justify increased investment in a decision, based on
 Irrational escalation
 The tendency for people to want to believe that the world is fundamentally just, causing them to rationalize an otherwise inexplicable injustice as deserved by the victim(s).
 Just-world hypothesis
-The disutility of giving up an object is greater than the utility associated with acquiring it. (see also Sunk cost effects and Endowment effect).
+The disutility of giving up an object is greater than the utility associated with acquiring it
 Loss aversion
 The tendency to express undue liking for things merely because of familiarity with them.
 Mere exposure effect
