@@ -6,6 +6,8 @@
 
 ;; todo ideas
 
+; sort save file by category
+
 ;; constants
 
 (def considered-known-at-num-correct 3)
@@ -63,7 +65,9 @@
 ;; introduce new cards :not-seen -> :to-ask
 (defn show-level-up []
   (println)
+  (println "  !!!!!!!!!!!!!!!!!!")
   (println "  !!!  Level Up  !!!")
+  (println "  !!!!!!!!!!!!!!!!!!")
   (println))
 
 (defn not-learned [stacks]
@@ -206,21 +210,11 @@ Learn kung-fu with flashcards!
 
 Help:
   :q quit
-  :h this help message
-  :s detailed statistics
-  :o score frequencies
-  :c show all categories
+  :f score frequencies
+  :c show categories and card counts
   :d delete category
+  :h this help message
 "))
-
-(defn show-detailed-status [stacks]
-  (show-header)
-  (println "Active cards and their scores:")
-  (println)
-  (doseq [[score question] (sort (map (juxt :consecutive-correct :question)
-                                      (:to-ask stacks)))]
-    (println " " score question))
-  (println))
 
 (defn show-score-frequencies [stacks]
   (show-header)
@@ -274,8 +268,7 @@ Help:
     (condp = answer-a
       ":q" :quit
       ":h" :help
-      ":s" :stats
-      ":o" :scores
+      ":f" :scores
       ":d" :del-cat
       ":c" :cats
       answer-b :correct
@@ -327,9 +320,6 @@ Help:
               :help (do
                       (show-help)
                       (recur stacks))
-              :stats (do
-                       (show-detailed-status stacks)
-                       (recur stacks))
               :scores (do
                        (show-score-frequencies stacks)
                        (recur stacks))
