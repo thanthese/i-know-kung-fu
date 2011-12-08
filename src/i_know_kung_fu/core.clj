@@ -6,8 +6,6 @@
 
 ;; todo ideas
 
-; sort save file by category
-
 ;; constants
 
 (def considered-known-at-num-correct 3)
@@ -27,12 +25,25 @@
   (let [closer (condp = delimiter
                  "[" "]"
                  "{" "}")]
-    (str delimiter (apply str (interpose "\n" elems)) closer)))
+    (str delimiter "\n" (apply str (interpose "\n" elems)) closer)))
+
+(def key-order {:category 0
+                :question 1
+                :answer 2
+                :consecutive-correct 3
+                :answer-at 4})
+
+(defn print-card [card]
+  (str (apply sorted-map-by (fn [a b] (compare (a key-order)
+                                               (b key-order)))
+              (flatten (vec card)))))
+
+(defn print-cards [cards]
+  (wrap "[" (map print-card (sort-by :category cards))))
 
 (defn print-stacks [stacks]
   (wrap "{" (for [pile (keys stacks)]
-              (str pile "\n"
-                   (wrap "[" (map str (pile stacks)))))))
+              (str pile "\n" (print-cards (pile stacks))))))
 
 (defn load-stacks [save-file] (read-string (slurp save-file)))
 (defn save-stacks [save-file stacks] (spit save-file (print-stacks stacks)))
