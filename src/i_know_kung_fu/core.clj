@@ -10,6 +10,7 @@
 
 (def considered-known-at-num-correct 3)
 (def new-ones-batch-size 10)
+(def word-wrap #".{0,65}$|.{0,65} ")
 
 ;; DEVELOPMENT shortcuts
 
@@ -42,7 +43,7 @@
   (wrap "[" (map print-card (sort-by :category cards))))
 
 (defn print-stacks [stacks]
-  (wrap "{" (for [pile (keys stacks)]
+  (wrap "{" (for [pile [:not-seen :to-ask :not-due]]
               (str pile "\n" (print-cards (pile stacks))))))
 
 (defn load-stacks [save-file] (read-string (slurp save-file)))
@@ -271,7 +272,7 @@ Help:
   (println "  Categry : " (:category card))
   (println "  Score   : " (:consecutive-correct card))
   (println)
-  (doseq [line (re-seq #".{0,65} " (str (:question card) " "))]
+  (doseq [line (re-seq word-wrap (:question card))]
     (println line))
   (println)
   (let [answer-a (str/lower-case (read-line))
