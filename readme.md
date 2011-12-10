@@ -31,7 +31,7 @@ save-file is provided under the `resources` folder.
 
 ## To run
 
-    $ java -jar i-know-kung-fu-0.1-standalone.jar save-file
+    $ java -jar i-know-kung-fu-0.1-standalone.jar
 
 to show the help message, or
 
