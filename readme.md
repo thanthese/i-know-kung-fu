@@ -19,9 +19,10 @@ category is injected into the mix.
 ## To compile
 
 Requires installing [leiningen](https://github.com/technomancy/leiningen).
-(Don't worry, it's quick and painless.)
+(Don't worry, it's quick and painless.)  Then,
 
-    lein uberjar
+    $ cd i-know-kung-fu
+    $ lein uberjar
 
 ## The setup
 
@@ -30,15 +31,15 @@ save-file is provided under the `resources` folder.
 
 ## To run
 
-    java -jar i-know-kung-fu-0.1-standalone.jar save-file
+    $ java -jar i-know-kung-fu-0.1-standalone.jar save-file
 
 to show the help message, or
 
-    java -jar i-know-kung-fu-0.1-standalone.jar save-file
+    $ java -jar i-know-kung-fu-0.1-standalone.jar save-file
 
 to run in training mode, or
 
-    java -jar i-know-kung-fu-0.1-standalone.jar save-file import-file
+    $ java -jar i-know-kung-fu-0.1-standalone.jar save-file import-file
 
 to perform a batch import.  Sample import files are under the `resources`
 folder.
