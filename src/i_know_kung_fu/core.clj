@@ -75,12 +75,17 @@
           (:not-due stacks)))
 
 ;; introduce new cards :not-seen -> :to-ask
-(defn show-level-up []
-  (println)
-  (println "  !!!!!!!!!!!!!!!!!!")
-  (println "  !!!  Level Up  !!!")
-  (println "  !!!!!!!!!!!!!!!!!!")
-  (println))
+(defn show-level-up [cards]
+  (let [num (count cards)
+        category (:category (first cards))]
+    (println)
+    (println "  !!!!!!!!!!!!!!!!!!")
+    (println "  !!!  Level Up  !!!")
+    (println "  !!!!!!!!!!!!!!!!!!")
+    (println)
+    (println "  Adding" num "cards from:" category)
+    (println)
+    (println)))
 
 (defn not-learned [stacks]
   (count (filter (fn [card] (< (:consecutive-correct card)
@@ -106,7 +111,7 @@
     (if enough-not-learned
       stacks
       (let [cards (top-cards-from-random-category stacks)]
-        (show-level-up)
+        (show-level-up cards)
         (-> stacks
           (remove-cards :not-seen cards)
           (add-cards :to-ask (initialize-counter-fields cards))

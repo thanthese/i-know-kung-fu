@@ -1,8 +1,10 @@
-[Learn kung-fu](http://www.youtube.com/watch?v=6vMO3XmNXe4) (or anything else) with this command-line flashcard program.
+[Learn kung-fu](http://www.youtube.com/watch?v=6vMO3XmNXe4) (or anything else)
+with this command-line flashcard program.
 
 ## The algorithm
 
-Basically a digital version of the [Leitner System](http://en.wikipedia.org/wiki/Leitner_system).
+Basically a digital version of the [Leitner
+System](http://en.wikipedia.org/wiki/Leitner_system).
 
 There are buckets for cards you view every 0, 1, 2, 4, 8 16, 32, ... days.  A
 card is presented when it comes due.  If the user gets it right it goes into
@@ -16,16 +18,27 @@ category is injected into the mix.
 
 ## To compile
 
-Requires [leiningen](https://github.com/technomancy/leiningen)
+Requires installing [leiningen](https://github.com/technomancy/leiningen).
+(Don't worry, it's quick and painless.)
 
-    lein uberwar
+    lein uberjar
+
+## The setup
+
+The program must point to a valid save-file, even on first run.  A minimal
+save-file is provided under the `resources` folder.
 
 ## To run
 
     java -jar i-know-kung-fu-0.1-standalone.jar save-file
 
-or
+to show the help message, or
+
+    java -jar i-know-kung-fu-0.1-standalone.jar save-file
+
+to run in training mode, or
 
     java -jar i-know-kung-fu-0.1-standalone.jar save-file import-file
 
-Sample import files are under the `resources` folder.
+to perform a batch import.  Sample import files are under the `resources`
+folder.
