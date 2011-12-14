@@ -1,3 +1,3 @@
-{:not-seen [ ]
+{:not-seen []
  :to-ask []
  :not-due []}
