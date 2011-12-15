@@ -1,175 +1,88 @@
-___
-John Adams
-Thomas Jefferson
-
+__ John Adams Thomas Jefferson
 George Washington
-___
-Thomas Jefferson
-
+George Washington __ Thomas Jefferson
 John Adams
-___
-James Madison
-
+John Adams __ James Madison
 Thomas Jefferson
-___
-James Monroe
-
+Thomas Jefferson __ James Monroe
 James Madison
-___
-John Quincy Adams
-
+James Madison __ John Quincy Adams
 James Monroe
-___
-Andrew Jackson
-
+James Monroe __ Andrew Jackson
 John Quincy Adams
-___
-Martin Van Buren
-
+John Quincy Adams __ Martin Van Buren
 Andrew Jackson
-___
-William Henry Harrison
-
+Andrew Jackson __ William Henry Harrison
 Martin Van Buren
-___
-John Tyler
-
+Martin Van Buren __ John Tyler
 William Henry Harrison
-___
-James K. Polk
-
+William Henry Harrison __ James K. Polk
 John Tyler
-___
-Zachary Taylor
-
+John Tyler __ Zachary Taylor
 James K. Polk
-___
-Millard Fillmore
-
+James K. Polk __ Millard Fillmore
 Zachary Taylor
-___
-Franklin Pierce
-
+Zachary Taylor __ Franklin Pierce
 Millard Fillmore
-___
-James Buchanan
-
+Millard Fillmore __ James Buchanan
 Franklin Pierce
-___
-Abraham Lincoln
-
+Franklin Pierce __ Abraham Lincoln
 James Buchanan
-___
-Andrew Johnson
-
+James Buchanan __ Andrew Johnson
 Abraham Lincoln
-___
-Ulysses S. Grant
-
+Abraham Lincoln __ Ulysses S. Grant
 Andrew Johnson
-___
-Rutherford B. Hayes
-
+Andrew Johnson __ Rutherford B. Hayes
 Ulysses S. Grant
-___
-James A. Garfield
-
+Ulysses S. Grant __ James A. Garfield
 Rutherford B. Hayes
-___
-Chester A. Arthur
-
+Rutherford B. Hayes __ Chester A. Arthur
 James A. Garfield
-___
-Grover Cleveland
-
+James A. Garfield __ Grover Cleveland
 Chester A. Arthur
-___
-Benjamin Harrison
-
+Chester A. Arthur __ Benjamin Harrison
 Grover Cleveland
-___
-Grover Cleveland
-
+Grover Cleveland __ Grover Cleveland
 Benjamin Harrison
-___
+Benjamin Harrison __ William McKinley
+Grover Cleveland
+Grover Cleveland __ Theodore Roosevelt
 William McKinley
-
-Grover Cleveland
-___
+William McKinley __ William Howard Taft
 Theodore Roosevelt
-
-William McKinley
-___
+Theodore Roosevelt __ Woodrow Wilson
 William Howard Taft
-
-Theodore Roosevelt
-___
+William Howard Taft __ Warren G. Harding
 Woodrow Wilson
-
-William Howard Taft
-___
+Woodrow Wilson __ Calvin Coolidge
 Warren G. Harding
-
-Woodrow Wilson
-___
+Warren G. Harding __ Herbert Hoover
 Calvin Coolidge
-
-Warren G. Harding
-___
+Calvin Coolidge __ Franklin D. Roosevelt
 Herbert Hoover
-
-Calvin Coolidge
-___
+Herbert Hoover __ Harry S. Truman
 Franklin D. Roosevelt
-
-Herbert Hoover
-___
+Franklin D. Roosevelt __ Dwight D. Eisenhower
 Harry S. Truman
-
-Franklin D. Roosevelt
-___
+Harry S. Truman __ John F. Kennedy
 Dwight D. Eisenhower
-
-Harry S. Truman
-___
+Dwight D. Eisenhower __ Lyndon B. Johnson
 John F. Kennedy
-
-Dwight D. Eisenhower
-___
+John F. Kennedy __ Richard Nixon
 Lyndon B. Johnson
-
-John F. Kennedy
-___
+Lyndon B. Johnson __ Gerald Ford
 Richard Nixon
-
-Lyndon B. Johnson
-___
+Richard Nixon __ Jimmy Carter
 Gerald Ford
-
-Richard Nixon
-___
+Gerald Ford __ Ronald Reagan
 Jimmy Carter
-
-Gerald Ford
-___
+Jimmy Carter __ George H. W. Bush
 Ronald Reagan
-
-Jimmy Carter
-___
+Ronald Reagan __ Bill Clinton
 George H. W. Bush
-
-Ronald Reagan
-___
+George H. W. Bush __ George W. Bush
 Bill Clinton
-
-George H. W. Bush
-___
+Bill Clinton __ Barack Obama
 George W. Bush
-
-Bill Clinton
-___
+Bill Clinton George W. Bush __
 Barack Obama
-
-Bill Clinton
-George W. Bush
-___
