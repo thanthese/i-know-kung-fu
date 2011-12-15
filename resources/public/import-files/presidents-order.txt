@@ -1,0 +1,175 @@
+___
+John Adams
+Thomas Jefferson
+
+George Washington
+___
+Thomas Jefferson
+
+John Adams
+___
+James Madison
+
+Thomas Jefferson
+___
+James Monroe
+
+James Madison
+___
+John Quincy Adams
+
+James Monroe
+___
+Andrew Jackson
+
+John Quincy Adams
+___
+Martin Van Buren
+
+Andrew Jackson
+___
+William Henry Harrison
+
+Martin Van Buren
+___
+John Tyler
+
+William Henry Harrison
+___
+James K. Polk
+
+John Tyler
+___
+Zachary Taylor
+
+James K. Polk
+___
+Millard Fillmore
+
+Zachary Taylor
+___
+Franklin Pierce
+
+Millard Fillmore
+___
+James Buchanan
+
+Franklin Pierce
+___
+Abraham Lincoln
+
+James Buchanan
+___
+Andrew Johnson
+
+Abraham Lincoln
+___
+Ulysses S. Grant
+
+Andrew Johnson
+___
+Rutherford B. Hayes
+
+Ulysses S. Grant
+___
+James A. Garfield
+
+Rutherford B. Hayes
+___
+Chester A. Arthur
+
+James A. Garfield
+___
+Grover Cleveland
+
+Chester A. Arthur
+___
+Benjamin Harrison
+
+Grover Cleveland
+___
+Grover Cleveland
+
+Benjamin Harrison
+___
+William McKinley
+
+Grover Cleveland
+___
+Theodore Roosevelt
+
+William McKinley
+___
+William Howard Taft
+
+Theodore Roosevelt
+___
+Woodrow Wilson
+
+William Howard Taft
+___
+Warren G. Harding
+
+Woodrow Wilson
+___
+Calvin Coolidge
+
+Warren G. Harding
+___
+Herbert Hoover
+
+Calvin Coolidge
+___
+Franklin D. Roosevelt
+
+Herbert Hoover
+___
+Harry S. Truman
+
+Franklin D. Roosevelt
+___
+Dwight D. Eisenhower
+
+Harry S. Truman
+___
+John F. Kennedy
+
+Dwight D. Eisenhower
+___
+Lyndon B. Johnson
+
+John F. Kennedy
+___
+Richard Nixon
+
+Lyndon B. Johnson
+___
+Gerald Ford
+
+Richard Nixon
+___
+Jimmy Carter
+
+Gerald Ford
+___
+Ronald Reagan
+
+Jimmy Carter
+___
+George H. W. Bush
+
+Ronald Reagan
+___
+Bill Clinton
+
+George H. W. Bush
+___
+George W. Bush
+
+Bill Clinton
+___
+Barack Obama
+
+Bill Clinton
+George W. Bush
+___
