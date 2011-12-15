@@ -378,7 +378,7 @@ Help:
                    (show-all-categories stacks)
                    (println "Enter category of new cards: ")
                    (println)
-                   (read-line))
+                   (str/trim (read-line)))
         new-cards (for [[q a] QAs]
                     {:category category
                      :question q
