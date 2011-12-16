@@ -233,15 +233,21 @@ Help:
   :h this help message
 "))
 
+(defn pad-int [num-spaces text]
+  (format (str "%" num-spaces "d") text))
+
 (defn show-score-frequencies [stacks]
   (show-header)
   (println "Show how many cards are at each score.")
   (println)
-  (println "Score | Count")
+  (println "Score | Count | Interval (days)")
   (doseq [[score cards] (sort (group-by :consecutive-correct
                                         (all-cards stacks)))
           :when (not (nil? score))]
-    (println " " score (count cards)))
+    (println " "
+             (pad-int 3 score)
+             (pad-int 7 (count cards))
+             (pad-int 7 (nth spacing-sequence score))))
   (println))
 
 (defn elapsed-time [starting-time]
