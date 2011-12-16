@@ -238,7 +238,7 @@ Help:
 
 (defn show-score-frequencies [stacks]
   (show-header)
-  (println "Show how many cards are at each score.")
+  (println "How many cards are at each score.")
   (println)
   (println "Score | Count | Interval (days)")
   (doseq [[score cards] (sort (group-by :consecutive-correct
