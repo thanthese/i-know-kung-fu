@@ -305,7 +305,9 @@ Help:
   (println "All categories:")
   (println)
   (doseq [cat (all-categories stacks)]
-    (println " " (count-cards-in-category stacks cat) cat))
+    (println " "
+             (pad-int 5 (count-cards-in-category stacks cat))
+             cat))
   (println)
   (println "  There are" (count (all-cards stacks)) "cards in all.")
   (println))
