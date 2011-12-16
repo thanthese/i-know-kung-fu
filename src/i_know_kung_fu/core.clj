@@ -260,9 +260,9 @@ Help:
   (show-header)
   (println "  Elapsed time: " (elapsed-time starting-time))
   (println)
-  (println " " (count (:not-seen stacks)) "Not seen")
-  (println " " (count (:to-ask stacks)) "In play")
-  (println " " (count (:not-due stacks)) "Not due"))
+  (println " " (pad-int 5 (count (:not-seen stacks))) "Not seen")
+  (println " " (pad-int 5 (count (:to-ask stacks))) "In play")
+  (println " " (pad-int 5 (count (:not-due stacks))) "Not due"))
 
 (defn show-wrong [card]
   (println)
