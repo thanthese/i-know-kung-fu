@@ -134,13 +134,18 @@
 
 ;; react to correct answers
 
-(def delay-unit (* 1000 60 60 20))  ; 20 hours in milliseconds
+(def hour (* 1000 60 60))  ; in milliseconds
+(def delay-unit (* 20 hour))
+(def day        (* 24 hour))
 
 (def spacing-sequence (concat (repeat considered-known-at-num-correct 0)
                               (iterate (partial * 2) 1)))
 
 (defn wait-time [consecutive-correct]
   (* delay-unit (nth spacing-sequence consecutive-correct)))
+
+(defn days [wait-time]
+  (int (Math/ceil (/ wait-time day))))
 
 (defn non-repeating-shuffle
   "Shuffles :to-ask. Guarantees a new first card."
@@ -247,7 +252,7 @@ Help:
     (println " "
              (pad-int 3 score)
              (pad-int 7 (count cards))
-             (pad-int 7 (nth spacing-sequence score))))
+             (pad-int 7 (days (wait-time score)))))
   (println))
 
 (defn elapsed-time [starting-time]
