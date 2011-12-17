@@ -111,7 +111,7 @@
     (if enough-not-learned
       stacks
       (let [cards (top-cards-from-random-category stacks)]
-        (show-level-up cards)
+        (when-not (empty? cards) (show-level-up cards))
         (-> stacks
           (remove-cards :not-seen cards)
           (add-cards :to-ask (initialize-counter-fields cards))
