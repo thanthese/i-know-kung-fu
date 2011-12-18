@@ -303,7 +303,8 @@ Help:
       :wrong)))
 
 (defn show-all-done []
-  (println "All questioned answered for today.  Take a break."))
+  (println "All questioned answered for now.  Take a break.")
+  (println))
 
 (defn show-all-categories [stacks]
   (show-header)
@@ -339,6 +340,7 @@ Help:
       (if (empty? (:to-ask stacks))
         (do
           (save-stacks save-file stacks)
+          (show-score-frequencies stacks)
           (show-all-done))
         (do
           (show-basic-stats stacks starting-time)
