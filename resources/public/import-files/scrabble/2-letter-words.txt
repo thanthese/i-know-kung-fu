@@ -1,0 +1,202 @@
+__ ab ad
+aa
+aa __ ad
+ab
+ab __ ae
+ad
+ad __ ag
+ae
+ae __ ah
+ag
+ag __ ai
+ah
+ah __ al
+ai
+ai __ am
+al
+al __ an
+am
+am __ ar
+an
+an __ as
+ar
+ar __ at
+as
+as __ aw
+at
+at __ ax
+aw
+aw __ ay
+ax
+ax __ ba
+ay
+ay __ be
+ba
+ba __ bi
+be
+be __ bo
+bi
+bi __ by
+bo
+bo __ de
+by
+by __ do
+de
+de __ ed
+do
+do __ ef
+ed
+ed __ eh
+ef
+ef __ el
+eh
+eh __ em
+el
+el __ en
+em
+em __ er
+en
+en __ es
+er
+er __ et
+es
+es __ ex
+et
+et __ fa
+ex
+ex __ fe
+fa
+fa __ go
+fe
+fe __ ha
+go
+go __ he
+ha
+ha __ hi
+he
+he __ hm
+hi
+hi __ ho
+hm
+hm __ id
+ho
+ho __ if
+id
+id __ in
+if
+if __ is
+in
+in __ it
+is
+is __ jo
+it
+it __ ka
+jo
+jo __ ki
+ka
+ka __ la
+ki
+ki __ li
+la
+la __ lo
+li
+li __ ma
+lo
+lo __ me
+ma
+ma __ mi
+me
+me __ mm
+mi
+mi __ mo
+mm
+mm __ mu
+mo
+mo __ my
+mu
+mu __ na
+my
+my __ ne
+na
+na __ no
+ne
+ne __ nu
+no
+no __ od
+nu
+nu __ oe
+od
+od __ of
+oe
+oe __ oh
+of
+of __ oi
+oh
+oh __ om
+oi
+oi __ on
+om
+om __ op
+on
+on __ or
+op
+op __ os
+or
+or __ ow
+os
+os __ ox
+ow
+ow __ oy
+ox
+ox __ pa
+oy
+oy __ pe
+pa
+pa __ pi
+pe
+pe __ qi
+pi
+pi __ re
+qi
+qi __ sh
+re
+re __ si
+sh
+sh __ so
+si
+si __ ta
+so
+so __ ti
+ta
+ta __ to
+ti
+ti __ uh
+to
+to __ um
+uh
+uh __ un
+um
+um __ up
+un
+un __ us
+up
+up __ ut
+us
+us __ we
+ut
+ut __ wo
+we
+we __ xi
+wo
+wo __ xu
+xi
+xi __ ya
+xu
+xu __ ye
+ya
+ya __ yo
+ye
+ye __ za
+yo
+ye yo __
+za
