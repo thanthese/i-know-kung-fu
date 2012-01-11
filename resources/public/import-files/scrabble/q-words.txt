@@ -1,10 +1,36 @@
-__ qadi qaid
+__ aquae aquas
 aqua
-aqua __ qaid
+aqua __ aquas
+aquae
+aquae __ burqa
+aquas
+aquas __ equal
+burqa
+burqa __ equid
+equal
+equal __ equip
+equid
+equid __ faqir
+equip
+equip __ fique
+faqir
+faqir __ maqui
+fique
+fique __ pique
+maqui
+maqui __ qadi
+pique
+pique __ qadis
 qadi
-qadi __ qat
+qadi __ qaid
+qadis
+qadis __ qaids
 qaid
-qaid __ qats
+qaid __ qanat
+qaids
+qaids __ qat
+qanat
+qanat __ qats
 qat
 qat __ qi
 qats
@@ -12,33 +38,165 @@ qats __ qis
 qi
 qi __ qoph
 qis
-qis __ qua
+qis __ qophs
 qoph
-qoph __ quad
+qoph __ qua
+qophs
+qophs __ quack
 qua
-qua __ quag
+qua __ quad
+quack
+quack __ quads
 quad
-quad __ quai
+quad __ quaff
+quads
+quads __ quag
+quaff
+quaff __ quags
 quag
-quag __ quay
+quag __ quai
+quags
+quags __ quail
 quai
-quai __ quey
+quai __ quais
+quail
+quail __ quake
+quais
+quais __ quaky
+quake
+quake __ quale
+quaky
+quaky __ qualm
+quale
+quale __ quant
+qualm
+qualm __ quare
+quant
+quant __ quark
+quare
+quare __ quart
+quark
+quark __ quash
+quart
+quart __ quasi
+quash
+quash __ quass
+quasi
+quasi __ quate
+quass
+quass __ quay
+quate
+quate __ quays
 quay
-quay __ quid
+quay __ qubit
+quays
+quays __ quean
+qubit
+qubit __ queen
+quean
+quean __ queer
+queen
+queen __ quell
+queer
+queer __ quern
+quell
+quell __ query
+quern
+quern __ quest
+query
+query __ queue
+quest
+quest __ quey
+queue
+queue __ queys
 quey
-quey __ quin
+quey __ quick
+queys
+queys __ quid
+quick
+quick __ quids
 quid
-quid __ quip
+quid __ quiet
+quids
+quids __ quiff
+quiet
+quiet __ quill
+quiff
+quiff __ quilt
+quill
+quill __ quin
+quilt
+quilt __ quins
 quin
-quin __ quit
+quin __ quint
+quins
+quins __ quip
+quint
+quint __ quips
 quip
-quip __ quiz
+quip __ quipu
+quips
+quips __ quire
+quipu
+quipu __ quirk
+quire
+quire __ quirt
+quirk
+quirk __ quit
+quirt
+quirt __ quite
 quit
-quit __ quod
+quit __ quits
+quite
+quite __ quiz
+quits
+quits __ quod
 quiz
-quiz __ suq
+quiz __ quods
 quod
-quod __ suqs
+quod __ quoin
+quods
+quods __ quoit
+quoin
+quoin __ quoll
+quoit
+quoit __ quota
+quoll
+quoll __ quote
+quota
+quota __ quoth
+quote
+quote __ qursh
+quoth
+quoth __ roque
+qursh
+qursh __ squab
+roque
+roque __ squad
+squab
+squab __ squat
+squad
+squad __ squaw
+squat
+squat __ squeg
+squaw
+squaw __ squib
+squeg
+squeg __ squid
+squib
+squib __ suq
+squid
+squid __ suqs
 suq
-quod suq __
+suq __ toque
 suqs
+suqs __ tranq
+toque
+toque __ tuque
+tranq
+tranq __ umiaq
+tuque
+tuque __ usque
+umiaq
+tuque umiaq __
+usque
