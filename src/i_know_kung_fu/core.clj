@@ -303,7 +303,7 @@ Help:
       :wrong)))
 
 (defn show-all-done []
-  (println "All questioned answered for now.  Take a break.")
+  (println "All questions answered for now.  Take a break.")
   (println))
 
 (defn show-all-categories [stacks]
